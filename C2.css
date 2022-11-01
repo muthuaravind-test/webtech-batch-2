@@ -1,0 +1,11 @@
+label{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+input{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}

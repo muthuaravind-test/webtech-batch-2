@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script>
+        var app = angular.module('myapp', ['ngRoute']);
+        app.config(function ($routeProvider) {
+            $routeProvider.when('/home', {
+                templateUrl: 'index.html'
+            })
+                .when('/shopingwebsite', {
+                    templateUrl:'Shopping.html'
+                })
+                .when('/asusshopping',{
+                    templateUrl:'asusshopping.html'
+                })
+                .when('/music',{
+                    templateUrl:'music.html'
+                })
+                .when('/resume',{
+                    templateUrl:'resume.html'
+                })
+                .otherwise({redirectTo:'/'})
+        })
+    </script>
+</head>
+
+<body ng-app="myapp">
+    <table cellspacing = 30 border = "0" width = "100%" style="background-color: gray; color: aqua;">
+    <td><a href="#!home">home</a></td> 
+    <td><a href="#!shopingwebsite">shopingwebsite</a></td>
+    <td><a href="#!asusshopping">Asus Products</a></td>
+    <td><a href="#!music">Music</a></td>
+    <td><a href="#!resume">Students resume </a></td>
+    </table>
+    <hr>
+    <div ng-view>
+    </div>
+</body>
+</html>

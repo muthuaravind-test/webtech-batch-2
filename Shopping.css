@@ -1,0 +1,75 @@
+#imglogo{
+    width: 90px;
+    height: 90px;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
+.whole{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.seven {
+    text-align: center;
+    text-justify:auto;
+    color: antiquewhite;
+}
+.eight {
+    text-align: center;
+    text-justify:auto;
+    color: antiquewhite;
+}
+.nine {
+    text-align: center;
+    text-justify:auto;
+    color: antiquewhite;
+}
+.ten {
+    text-align: center;
+    text-justify:auto;  
+    color: antiquewhite; 
+}
+#button1 {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+    border-radius: 12px;
+    font-family:'Times New Roman', Times, serif;
+}
+#button2 {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button3 {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button4 {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+}
+.Ta{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: antiquewhite;
+    border-color: red;
+}
+

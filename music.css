@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.HEAD *{
+    display:inline;
+    align-items: center;
+    padding-top: 0px;
+}
+.HEAD{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+}
+.HEAD li{
+    padding-right: 50px;
+    color: antiquewhite;  
+}
+.HEAD a:link {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+.HEAD a:hover {
+    color: rgb(0, 102, 255);
+}
+.HEAD a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iii{
+    display: flex;
+    align-items: center;
+    padding-right: 30%;
+    padding-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.side{
+    height:600px;
+    background-repeat:no-repeat;
+    display:-webkit-box;
+    display:-webkit-flex;display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    background-color: darkviolet;
+    overflow:hidden;
+    width:100%;min-height:450px;padding:0;background:url(https://www.scdn.co/i/free/bubbles-mobile.svg), 
+    linear-gradient(-45deg,#6c0ee0 -5%,#f037a6) no-repeat;background-color:
+    #6c0ee0;background-size:100% 927px;background-position:
+    center center;background-repeat:no-repeat;
+}
+.hhh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.phot{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.bot{
+    text-align: center;
+    background-image: linear-gradient(purple, rgb(96, 31, 146));
+    font-size: 50px;
+    height: 200px;
+    color: white;
+    font-family: system-ui;
+    padding-top: 70px;
+    font-size: 70px;
+}
+.nn{
+    background-color: black;
+}
+
+
+
+
